@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>데이트피커</title>
+</head>
+<body>
+    <input id="select" placeholder="Select date" readonly>
+    <div id="calendar">
+        <div class="month">
+          <ul>
+            <li id="prev">&#10094;</li>
+            <li id="month"></li>
+            <li id="year"></li>
+            <li id="next">&#10095;</li>
+          </ul>
+        </div>
+  
+        <ul id="weekdays">
+          <li>SUN</li>
+          <li>MON</li>
+          <li>TUE</li>
+          <li>WED</li>
+          <li>THU</li>
+          <li>FRI</li>
+          <li>SAT</li>
+        </ul>
+  
+        <ul id="days"></ul>
+        
+        <!-- <div>You have clicked on: <span id="select"></span></div> -->
+    </div>
+    <script src="calendar.js"></script>
+</body>
+</html>
